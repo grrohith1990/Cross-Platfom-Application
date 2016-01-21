@@ -1,0 +1,39 @@
+<ion-view>
+  <ion-content>	
+	<div class="screenContainer" style="background-image: url(img/images/background.png)"><img class="imageavatar">
+			<div class="menuContainer">
+				<div class="menuLeft" ng-click="gotoMenu()"><img class="menuAvatar" src="img/images/menu.svg"></div>
+				<div class="menuMiddle menuFont" style="padding-left: 211px"> Share </div>
+				<div class="menuRight"><img src="img/images/shareSmall.png"></div>				
+			</div>
+
+			<div class="triangleContainer">
+				<img class="abtriangleAvatar" src="img/images/shrr.PNG">
+			</div>
+			<div class="socialMediaContainer">				
+				<div class="socialMediaItems" ng-click="likeCourseFacebook()"><img src="img/images/facebook.svg"></div>
+				<div class="socialMediaItems" ng-click="shareToTwitter()"><img src="img/images/twitter.svg"></div>
+				<div class="socialMediaItems"><img src="img/images/pinInterest.svg"></div>
+				<div class="socialMediaItems"><img src="img/images/mail.svg"></div>
+                                <div>
+                                <a href="#"
+                                    socialshare
+                                    socialshare-provider="facebook"
+                                    socialshare-text="Hallo Natasha"
+                                    socialshare-url="https://www.google.co.in/">
+                                    Share me Facebook in Desktop
+                                    </a>
+                                 </div>
+                                <div>
+                                <a href="#"
+                                    socialshare
+                                    socialshare-provider="twitter"
+                                    socialshare-text="Hallo Natasha"
+                                    socialshare-url="http://720kb.net">
+                                    Share me Twitter in Desktop
+                                    </a>
+                                </div>
+			</div>
+	</div>
+  </ion-content>    
+</ion-view>
